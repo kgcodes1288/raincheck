@@ -8,7 +8,7 @@ class RainshareApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Rainshare',
+      title: 'Raincheck',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       home: const MapScreen(),

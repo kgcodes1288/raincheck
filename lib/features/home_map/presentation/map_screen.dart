@@ -19,7 +19,7 @@ class MapScreen extends ConsumerWidget {
     final reportsAsync = ref.watch(nearbyReportsProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Rainshare')),
+      appBar: AppBar(title: const Text('Raincheck')),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           Navigator.of(context).push(
