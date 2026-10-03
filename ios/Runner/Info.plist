@@ -24,6 +24,10 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Rainshare needs your camera to take a photo of the rain you're reporting.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Rainshare uses your approximate location so others can see where it's raining.</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
